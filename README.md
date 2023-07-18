@@ -1,1 +1,5 @@
-# miniCalculator
+# miniCalculator![calcError3](https://github.com/ShanHtetAung/miniCalculator/assets/139361080/d5186ca5-4384-40a5-8970-d4146ef0121c)
+![calcError2](https://github.com/ShanHtetAung/miniCalculator/assets/139361080/3bdccabc-f452-4c87-8c78-30dd7f084b62)
+![calcError1](https://github.com/ShanHtetAung/miniCalculator/assets/139361080/96dc2901-92d7-4bd1-b7f7-3db0420c166f)
+![calcError](https://github.com/ShanHtetAung/miniCalculator/assets/139361080/b02c6c9d-115d-42d9-a650-ca6fcfb25d54)
+![calcResult](https://github.com/ShanHtetAung/miniCalculator/assets/139361080/6ae3bd9e-0099-45e1-bb0d-0f3c2f0cf46b)
