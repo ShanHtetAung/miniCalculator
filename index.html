@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Calculator</title>
+    <!-- style css link  -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header><span>Mini</span> Calculator</header>
+        <div class="result" id="result">0000</div>
+        <form action="#">
+            <div class="field firstNum">
+                <div class="input-area">
+                    <input type="text" placeholder="Enter First number">
+                </div>
+                <div class="error error-txt">First Number can't be blank</div>
+            </div>
+            <div class="field secNum">
+                <div class="input-area">
+                    <input type="text" placeholder="Enter Second number">
+                </div>
+                <div class="error error-txt">Second Number can't be blank</div>
+            </div>
+            <div class="field operator">
+                <div class="input-area">
+                    <select name="" id="operation">
+                        <option value="empty">Choose an operator</option>
+                        <option value="add">+</option>
+                        <option value="subtract">-</option>
+                        <option value="multiply">*</option>
+                        <option value="divide">/</option>
+                    </select>
+                </div>
+                <div class="error error-txt">Operator can't be blank</div>
+            </div>
+            <input type="submit" value="Calculate">
+        </form> 
+    </div>
+
+
+    <!-- script file  -->
+    <script src="./script.js"></script>
+</body>
+</html>

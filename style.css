@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --bg-color: #4a5c6a;
+    --main-color:#11212d;
+    --theme-color: #fff;
+    --border-color: #bfbfbf;
+    --error-color: #dc354d;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, var(--bg-color), var(--main-color));
+}
+
+.wrapper{
+    width: 380px;
+    background-color: var(--theme-color);
+    padding: 3em 1.5em 3em 1.5em;
+    border-radius: 10px;
+}
+
+.wrapper header{
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 1em;
+}
+.wrapper header span{
+    color: gold;
+}
+.wrapper form{
+    margin: 40px 0;
+    margin-top: 10px;
+}
+form .field{
+    width: 100%;
+    margin-bottom: 20px;
+}
+form .field.shake{
+    animation: shake 0.3s ease-in-out;
+}
+@keyframes shake {
+    0%, 100% {
+     margin-left: 0;
+    }
+    
+    20%, 80% {
+        margin-left: -12px;
+    }
+  
+   
+    40%, 60% {
+        margin-left: 12px;
+    }
+  }
+.wrapper form input, select{
+    width: 100%;
+    height: 50px;
+    font-size: 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 2px;
+    padding: 0 0.5em;
+    outline: none;
+}
+form .field.errorshow input{
+    border-color: var(--error-color);
+}
+form .field.errorshow select{
+    border-color: var(--error-color);
+}
+form input::placeholder, select option {
+    color: var(--border-color);
+    font-size: 1rem;
+}
+form .field .error-txt{
+    font-size: 0.9rem;
+    color: var(--error-color);
+    margin-top: 5px;
+}
+
+form .field .error{
+    display: none;
+}
+form .field.errorshow .error{
+    display: block;
+}
+
+form input[type="submit"]{
+    background-color: var(--main-color);
+    color: var(--theme-color);
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover{
+    background-color: var(--bg-color);
+}
+.result{
+    background-color: var(--main-color);
+    color: var(--border-color);
+    padding: 1em;
+    text-align: right;
+}
